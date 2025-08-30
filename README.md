@@ -264,9 +264,6 @@ with VirtualCoreManager() as manager:
 4. Ensure all tests pass
 5. Submit a pull request
 
-## License
-
-MIT License - see LICENSE file for details.
 
 ## Roadmap
 
