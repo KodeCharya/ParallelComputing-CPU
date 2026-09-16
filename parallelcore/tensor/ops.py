@@ -3,11 +3,28 @@ TensorOps: SIMD-accelerated tensor operations using Numba
 """
 
 import numpy as np
-import numba
-from numba import jit, prange
 from typing import Optional, Union, Tuple
 import multiprocessing as mp
 from concurrent.futures import ThreadPoolExecutor
+
+try:
+    import numba
+    from numba import jit, prange
+    _NUMBA_AVAILABLE = True
+except ImportError:  # Fallback when numba is not installed
+    _NUMBA_AVAILABLE = False
+
+    def jit(*jit_args, **jit_kwargs):
+        """No-op decorator fallback when numba is unavailable."""
+        def decorator(func):
+            return func
+        # Support both @jit and @jit(...) usages
+        if len(jit_args) == 1 and callable(jit_args[0]) and not jit_kwargs:
+            return jit_args[0]
+        return decorator
+
+    # prange fallback to built-in range
+    prange = range
 
 
 class TensorOps:

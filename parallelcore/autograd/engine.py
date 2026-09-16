@@ -3,7 +3,7 @@ AutogradEngine: Automatic differentiation engine for deep learning
 """
 
 import numpy as np
-from typing import Dict, List, Set, Optional, Callable, Any
+from typing import Dict, List, Set, Optional, Callable, Any, Union
 from collections import defaultdict, deque
 import weakref
 
@@ -131,55 +131,67 @@ class AutogradEngine:
         if not variable.requires_grad:
             return
         
+        def _to_tensor(g):
+            if isinstance(g, Tensor):
+                return g
+            if isinstance(g, Variable):
+                return g.tensor
+            return Tensor(np.asarray(g))
+
+        gradient = _to_tensor(gradient) if gradient is not None else None
+
         if gradient is None:
             if variable.tensor.size != 1:
                 raise RuntimeError("Gradient must be specified for non-scalar variables")
             gradient = Tensor(np.ones_like(variable.tensor._data))
-        
+
         # Topological sort of computation graph
         visited = set()
         topo_order = []
-        
+
         def dfs(var):
-            if id(var) in visited or not var.requires_grad:
+            if id(var) in visited or not getattr(var, 'requires_grad', False):
                 return
             visited.add(id(var))
-            
-            if hasattr(var, '_grad_fn') and var._grad_fn is not None:
-                for parent in var._grad_fn.inputs:
+
+            grad_fn = getattr(var, '_grad_fn', None)
+            if grad_fn is not None:
+                for parent in grad_fn.inputs:
                     if isinstance(parent, Variable):
                         dfs(parent)
-            
+
             topo_order.append(var)
-        
+
         dfs(variable)
-        
+
         # Initialize gradients
         gradients = {id(variable): gradient}
-        
+
         # Backward pass in reverse topological order
         for var in reversed(topo_order):
             if id(var) not in gradients:
                 continue
-            
-            current_grad = gradients[id(var)]
-            
-            if hasattr(var, '_grad_fn') and var._grad_fn is not None:
+
+            current_grad = _to_tensor(gradients[id(var)])
+
+            grad_fn = getattr(var, '_grad_fn', None)
+            if grad_fn is not None:
                 # Compute gradients for inputs
-                input_grads = var._grad_fn.backward(current_grad)
-                
-                for input_var, input_grad in zip(var._grad_fn.inputs, input_grads):
+                input_grads = grad_fn.backward(current_grad)
+
+                for input_var, input_grad in zip(grad_fn.inputs, input_grads):
                     if isinstance(input_var, Variable) and input_grad is not None:
+                        input_grad = _to_tensor(input_grad)
                         if id(input_var) in gradients:
-                            gradients[id(input_var)] = gradients[id(input_var)] + input_grad
+                            gradients[id(input_var)] = _to_tensor(gradients[id(input_var)]) + input_grad
                         else:
                             gradients[id(input_var)] = input_grad
-            
-            # Store gradient in variable
+
+            # Store gradient in variable (accumulate)
             if var.grad is None:
                 var.grad = current_grad
             else:
-                var.grad = var.grad + current_grad
+                var.grad = _to_tensor(var.grad) + current_grad
     
     def zero_grad(self, variables: List[Variable]):
         """Zero gradients for list of variables"""

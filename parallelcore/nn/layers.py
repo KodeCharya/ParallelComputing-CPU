@@ -78,12 +78,15 @@ class Linear(Module):
     
     def forward(self, x: Variable) -> Variable:
         """Forward pass"""
-        # x @ W^T + b
-        output = x @ self.weight.tensor.T
-        
+        # x @ W^T + b (keep Variables in graph for autograd)
+        if isinstance(x, Variable):
+            output = x @ self.weight.T
+        else:
+            output = x @ self.weight.tensor.T
+
         if self.bias is not None:
             output = output + self.bias
-        
+
         return output
     
     def __repr__(self) -> str:

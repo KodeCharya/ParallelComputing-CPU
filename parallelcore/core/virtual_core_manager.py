@@ -14,6 +14,26 @@ import numpy as np
 from .scheduler import Scheduler
 
 
+def _apply_to_chunk(func: Callable, chunk: List[Any]) -> List[Any]:
+    """Module-level helper so tasks are picklable in process mode."""
+    return [func(item) for item in chunk]
+
+
+def _reduce_list(func: Callable, chunk: List[Any]) -> Any:
+    """Module-level helper for parallel reduction."""
+    if len(chunk) == 1:
+        return chunk[0]
+    result = chunk[0]
+    for item in chunk[1:]:
+        result = func(result, item)
+    return result
+
+
+def _call_task(func: Callable, args: tuple, kwargs: dict) -> Any:
+    """Module-level helper for batch execution."""
+    return func(*args, **kwargs)
+
+
 class VirtualCore:
     """Represents a virtual CPU core for task execution"""
     
@@ -54,7 +74,7 @@ class VirtualCoreManager:
     - Performance monitoring and statistics
     """
     
-    def __init__(self, num_cores: Optional[int] = None, use_threads: bool = False):
+    def __init__(self, num_cores: Optional[int] = None, use_threads: bool = True):
         self.scheduler = Scheduler()
         self.num_cores = num_cores or self.scheduler.get_optimal_core_count()
         self.use_threads = use_threads
@@ -95,23 +115,22 @@ class VirtualCoreManager:
         # Split data into chunks
         chunks = [data[i:i + chunk_size] for i in range(0, len(data), chunk_size)]
         
-        # Process chunks in parallel
-        futures = []
+        # Process chunks in parallel (preserve input order)
         start_time = time.time()
-        
-        for i, chunk in enumerate(chunks):
-            future = self.executor.submit(self._process_chunk, func, chunk, i)
-            futures.append(future)
-        
-        # Collect results
+
+        futures = [
+            self.executor.submit(_apply_to_chunk, func, chunk)
+            for chunk in chunks
+        ]
+
+        # Collect in chunk order to preserve original ordering
         results = []
-        for future in as_completed(futures):
-            chunk_result = future.result()
-            results.extend(chunk_result.result)
-        
+        for future in futures:
+            results.extend(future.result())
+
         execution_time = time.time() - start_time
         self._update_performance_stats(execution_time, len(data))
-        
+
         return results
     
     def reduce_parallel(self, func: Callable, data: List[Any], 
@@ -145,16 +164,16 @@ class VirtualCoreManager:
         
         while len(current_data) > 1:
             chunk_size = max(2, len(current_data) // self.num_cores)
-            chunks = [current_data[i:i + chunk_size] 
+            chunks = [current_data[i:i + chunk_size]
                      for i in range(0, len(current_data), chunk_size)]
-            
-            futures = []
-            for chunk in chunks:
-                future = self.executor.submit(self._reduce_chunk, func, chunk)
-                futures.append(future)
-            
-            current_data = [future.result() for future in as_completed(futures)]
-        
+
+            futures = [
+                self.executor.submit(_reduce_list, func, chunk)
+                for chunk in chunks
+            ]
+
+            current_data = [future.result() for future in futures]
+
         return current_data[0]
     
     def execute_batch(self, tasks: List[tuple]) -> List[TaskResult]:
@@ -167,19 +186,29 @@ class VirtualCoreManager:
         Returns:
             List of TaskResult objects
         """
-        futures = []
         start_time = time.time()
-        
-        for i, (func, args, kwargs) in enumerate(tasks):
-            future = self.executor.submit(self._execute_task, func, args, kwargs, i)
-            futures.append(future)
-        
+
+        futures = [
+            self.executor.submit(_call_task, func, args, kwargs)
+            for (func, args, kwargs) in tasks
+        ]
+
         results = []
-        for future in as_completed(futures):
-            results.append(future.result())
-        
-        # Sort by task_id to maintain order
-        results.sort(key=lambda x: x.task_id)
+        for task_id, future in enumerate(futures):
+            task_start = time.time()
+            result = future.result()
+            execution_time = time.time() - task_start
+            try:
+                core_id = mp.current_process().pid % self.num_cores
+            except Exception:
+                core_id = task_id % self.num_cores
+            results.append(TaskResult(
+                task_id=task_id,
+                result=result,
+                execution_time=execution_time,
+                core_id=core_id,
+            ))
+
         return results
     
     def _process_chunk(self, func: Callable, chunk: List[Any], chunk_id: int) -> TaskResult:
@@ -250,7 +279,7 @@ class VirtualCoreManager:
             "total_cores": self.num_cores,
             "physical_cores": psutil.cpu_count(logical=False),
             "logical_cores": psutil.cpu_count(logical=True),
-            "cpu_percent": psutil.cpu_percent(interval=1),
+            "cpu_percent": psutil.cpu_percent(interval=0),
             "memory_percent": psutil.virtual_memory().percent,
             "core_utilization": [core.get_utilization() for core in self.virtual_cores]
         }

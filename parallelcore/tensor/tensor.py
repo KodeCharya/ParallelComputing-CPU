@@ -308,24 +308,62 @@ class Tensor:
     def _backward_through_graph(self, gradient: 'Tensor'):
         """Propagate gradients through computation graph"""
         op, *args = self._grad_fn
-        
+
+        def _unbroadcast_to(grad_data, shape):
+            if shape == ():
+                return np.array(grad_data.sum())
+            g = np.asarray(grad_data)
+            while g.ndim > len(shape):
+                g = g.sum(axis=0)
+            for i, dim in enumerate(shape):
+                if dim == 1 and g.shape[i] != 1:
+                    g = g.sum(axis=i, keepdims=True)
+            if g.shape != shape:
+                g = np.reshape(g, shape)
+            return g
+
         if op == 'add':
             self_tensor, other = args
             if isinstance(self_tensor, Tensor) and self_tensor.requires_grad:
-                self_tensor.backward(gradient)
+                g = Tensor(_unbroadcast_to(gradient._data, self_tensor.shape))
+                self_tensor.backward(g)
             if isinstance(other, Tensor) and other.requires_grad:
-                self_tensor.backward(gradient)
-        
+                g = Tensor(_unbroadcast_to(gradient._data, other.shape))
+                other.backward(g)
+
+        elif op == 'sub':
+            self_tensor, other = args
+            if isinstance(self_tensor, Tensor) and self_tensor.requires_grad:
+                g = Tensor(_unbroadcast_to(gradient._data, self_tensor.shape))
+                self_tensor.backward(g)
+            if isinstance(other, Tensor) and other.requires_grad:
+                g = Tensor(_unbroadcast_to(-gradient._data, other.shape))
+                other.backward(g)
+
         elif op == 'mul':
             self_tensor, other = args
             if isinstance(self_tensor, Tensor) and self_tensor.requires_grad:
                 other_data = other._data if isinstance(other, Tensor) else other
-                grad = gradient * Tensor(other_data)
+                grad = gradient * Tensor(np.asarray(other_data))
+                grad = Tensor(_unbroadcast_to(grad._data, self_tensor.shape))
                 self_tensor.backward(grad)
             if isinstance(other, Tensor) and other.requires_grad:
                 grad = gradient * self_tensor
+                grad = Tensor(_unbroadcast_to(grad._data, other.shape))
                 other.backward(grad)
-        
+
+        elif op == 'div':
+            self_tensor, other = args
+            if isinstance(self_tensor, Tensor) and self_tensor.requires_grad:
+                other_data = other._data if isinstance(other, Tensor) else np.asarray(other)
+                grad = gradient / Tensor(np.asarray(other_data))
+                grad = Tensor(_unbroadcast_to(grad._data, self_tensor.shape))
+                self_tensor.backward(grad)
+            if isinstance(other, Tensor) and other.requires_grad:
+                other_data = other._data
+                grad_data = -gradient._data * self_tensor._data / (other_data ** 2)
+                other.backward(Tensor(_unbroadcast_to(grad_data, other.shape)))
+
         elif op == 'matmul':
             self_tensor, other = args
             if self_tensor.requires_grad:
@@ -334,14 +372,49 @@ class Tensor:
             if other.requires_grad:
                 grad = self_tensor.transpose().matmul(gradient)
                 other.backward(grad)
-        
+
+        elif op == 'sum':
+            self_tensor, axis, keepdims = args
+            if isinstance(self_tensor, Tensor) and self_tensor.requires_grad:
+                g = gradient._data
+                if axis is None:
+                    out = np.ones(self_tensor.shape) * g
+                else:
+                    if not keepdims:
+                        ax = (axis,) if isinstance(axis, int) else tuple(axis)
+                        axn = tuple(a if a >= 0 else a + self_tensor.ndim for a in ax)
+                        for a in sorted(axn):
+                            g = np.expand_dims(g, axis=a)
+                    out = np.broadcast_to(g, self_tensor.shape).copy()
+                self_tensor.backward(Tensor(np.asarray(out)))
+
+        elif op == 'mean':
+            self_tensor, axis, keepdims = args
+            if isinstance(self_tensor, Tensor) and self_tensor.requires_grad:
+                g = gradient._data
+                shape = self_tensor.shape
+                if axis is None:
+                    n = int(np.prod(shape)) if len(shape) > 0 else 1
+                    out = np.ones(shape) * (g / n)
+                else:
+                    ax = (axis,) if isinstance(axis, int) else tuple(axis)
+                    n = 1
+                    for a in ax:
+                        n *= shape[a]
+                    if not keepdims:
+                        axn = tuple(a if a >= 0 else a + len(shape) for a in ax)
+                        for a in sorted(axn):
+                            g = np.expand_dims(g, axis=a)
+                    out = np.broadcast_to(g / n, shape).copy()
+                self_tensor.backward(Tensor(np.asarray(out)))
+
         elif op == 'relu':
             self_tensor = args[0]
             if self_tensor.requires_grad:
                 mask = Tensor((self_tensor._data > 0).astype(np.float32))
                 grad = gradient * mask
                 self_tensor.backward(grad)
-        
+
         elif op == 'sigmoid':
             self_tensor = args[0]
             if self_tensor.requires_grad:

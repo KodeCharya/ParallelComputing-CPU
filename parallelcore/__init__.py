@@ -15,24 +15,30 @@ from .tensor.tensor import Tensor
 from .tensor.ops import TensorOps
 from .autograd.engine import AutogradEngine
 from .autograd.variable import Variable
-from .nn.layers import Linear, ReLU, Sigmoid, Softmax
-from .nn.loss import MSELoss, CrossEntropyLoss
-from .nn.optimizer import SGD, Adam
+from .nn.layers import Linear, ReLU, Sigmoid, Softmax, Dropout, BatchNorm1d
+from .nn.loss import MSELoss, CrossEntropyLoss, L1Loss, HuberLoss
+from .nn.optimizer import SGD, Adam, AdamW, RMSprop
 
 __version__ = "0.1.0"
 __all__ = [
     "VirtualCoreManager",
-    "Scheduler", 
+    "Scheduler",
     "Tensor",
     "TensorOps",
     "AutogradEngine",
     "Variable",
     "Linear",
-    "ReLU", 
+    "ReLU",
     "Sigmoid",
     "Softmax",
+    "Dropout",
+    "BatchNorm1d",
     "MSELoss",
     "CrossEntropyLoss",
+    "L1Loss",
+    "HuberLoss",
     "SGD",
-    "Adam"
+    "Adam",
+    "AdamW",
+    "RMSprop",
 ]
