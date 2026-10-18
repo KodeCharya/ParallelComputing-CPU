@@ -1,0 +1,5 @@
+if(EXISTS "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/parallel_compute_tests[1]_tests.cmake")
+  include("/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/parallel_compute_tests[1]_tests.cmake")
+else()
+  add_test(parallel_compute_tests_NOT_BUILT parallel_compute_tests_NOT_BUILT)
+endif()

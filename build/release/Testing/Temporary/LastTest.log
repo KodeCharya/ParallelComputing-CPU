@@ -1,0 +1,1812 @@
+Start testing: Oct 18 18:55 IST
+----------------------------------------------------------
+1/67 Testing: CpuFeaturesTest.DetectsVendorAndBrand
+1/67 Test: CpuFeaturesTest.DetectsVendorAndBrand
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=CpuFeaturesTest.DetectsVendorAndBrand" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"CpuFeaturesTest.DetectsVendorAndBrand" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CpuFeaturesTest.DetectsVendorAndBrand
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CpuFeaturesTest
+[ RUN      ] CpuFeaturesTest.DetectsVendorAndBrand
+[       OK ] CpuFeaturesTest.DetectsVendorAndBrand (0 ms)
+[----------] 1 test from CpuFeaturesTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"CpuFeaturesTest.DetectsVendorAndBrand" end time: Oct 18 18:55 IST
+"CpuFeaturesTest.DetectsVendorAndBrand" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/67 Testing: SystemInfoTest.DetectsCoresAndCache
+2/67 Test: SystemInfoTest.DetectsCoresAndCache
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=SystemInfoTest.DetectsCoresAndCache" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"SystemInfoTest.DetectsCoresAndCache" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SystemInfoTest.DetectsCoresAndCache
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SystemInfoTest
+[ RUN      ] SystemInfoTest.DetectsCoresAndCache
+[       OK ] SystemInfoTest.DetectsCoresAndCache (0 ms)
+[----------] 1 test from SystemInfoTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SystemInfoTest.DetectsCoresAndCache" end time: Oct 18 18:55 IST
+"SystemInfoTest.DetectsCoresAndCache" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/67 Testing: AlignmentTest.ChecksAlignment
+3/67 Test: AlignmentTest.ChecksAlignment
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=AlignmentTest.ChecksAlignment" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"AlignmentTest.ChecksAlignment" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlignmentTest.ChecksAlignment
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlignmentTest
+[ RUN      ] AlignmentTest.ChecksAlignment
+[       OK ] AlignmentTest.ChecksAlignment (0 ms)
+[----------] 1 test from AlignmentTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlignmentTest.ChecksAlignment" end time: Oct 18 18:55 IST
+"AlignmentTest.ChecksAlignment" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/67 Testing: AlignedVectorTest.AllocatesAlignedMemory
+4/67 Test: AlignedVectorTest.AllocatesAlignedMemory
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=AlignedVectorTest.AllocatesAlignedMemory" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"AlignedVectorTest.AllocatesAlignedMemory" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AlignedVectorTest.AllocatesAlignedMemory
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AlignedVectorTest
+[ RUN      ] AlignedVectorTest.AllocatesAlignedMemory
+[       OK ] AlignedVectorTest.AllocatesAlignedMemory (0 ms)
+[----------] 1 test from AlignedVectorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AlignedVectorTest.AllocatesAlignedMemory" end time: Oct 18 18:55 IST
+"AlignedVectorTest.AllocatesAlignedMemory" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/67 Testing: MatrixTest.ManagesRowMajorStorage
+5/67 Test: MatrixTest.ManagesRowMajorStorage
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=MatrixTest.ManagesRowMajorStorage" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"MatrixTest.ManagesRowMajorStorage" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MatrixTest.ManagesRowMajorStorage
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixTest
+[ RUN      ] MatrixTest.ManagesRowMajorStorage
+[       OK ] MatrixTest.ManagesRowMajorStorage (0 ms)
+[----------] 1 test from MatrixTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixTest.ManagesRowMajorStorage" end time: Oct 18 18:55 IST
+"MatrixTest.ManagesRowMajorStorage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/67 Testing: BandwidthCounterTest.CalculatesStandardSTREAMBytes
+6/67 Test: BandwidthCounterTest.CalculatesStandardSTREAMBytes
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=BandwidthCounterTest.CalculatesStandardSTREAMBytes" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"BandwidthCounterTest.CalculatesStandardSTREAMBytes" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BandwidthCounterTest.CalculatesStandardSTREAMBytes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BandwidthCounterTest
+[ RUN      ] BandwidthCounterTest.CalculatesStandardSTREAMBytes
+[       OK ] BandwidthCounterTest.CalculatesStandardSTREAMBytes (0 ms)
+[----------] 1 test from BandwidthCounterTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BandwidthCounterTest.CalculatesStandardSTREAMBytes" end time: Oct 18 18:55 IST
+"BandwidthCounterTest.CalculatesStandardSTREAMBytes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/67 Testing: MemoryWorkloadsTest.VerifiesWorkloadsCorrectness
+7/67 Test: MemoryWorkloadsTest.VerifiesWorkloadsCorrectness
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=MemoryWorkloadsTest.VerifiesWorkloadsCorrectness" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"MemoryWorkloadsTest.VerifiesWorkloadsCorrectness" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = MemoryWorkloadsTest.VerifiesWorkloadsCorrectness
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MemoryWorkloadsTest
+[ RUN      ] MemoryWorkloadsTest.VerifiesWorkloadsCorrectness
+[       OK ] MemoryWorkloadsTest.VerifiesWorkloadsCorrectness (0 ms)
+[----------] 1 test from MemoryWorkloadsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MemoryWorkloadsTest.VerifiesWorkloadsCorrectness" end time: Oct 18 18:55 IST
+"MemoryWorkloadsTest.VerifiesWorkloadsCorrectness" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/67 Testing: ReductionsTest.SumMatchesWithinTolerance
+8/67 Test: ReductionsTest.SumMatchesWithinTolerance
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=ReductionsTest.SumMatchesWithinTolerance" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"ReductionsTest.SumMatchesWithinTolerance" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReductionsTest.SumMatchesWithinTolerance
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReductionsTest
+[ RUN      ] ReductionsTest.SumMatchesWithinTolerance
+[       OK ] ReductionsTest.SumMatchesWithinTolerance (0 ms)
+[----------] 1 test from ReductionsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ReductionsTest.SumMatchesWithinTolerance" end time: Oct 18 18:55 IST
+"ReductionsTest.SumMatchesWithinTolerance" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/67 Testing: ReductionsTest.MinAndMaxAreExact
+9/67 Test: ReductionsTest.MinAndMaxAreExact
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=ReductionsTest.MinAndMaxAreExact" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"ReductionsTest.MinAndMaxAreExact" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReductionsTest.MinAndMaxAreExact
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReductionsTest
+[ RUN      ] ReductionsTest.MinAndMaxAreExact
+[       OK ] ReductionsTest.MinAndMaxAreExact (0 ms)
+[----------] 1 test from ReductionsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ReductionsTest.MinAndMaxAreExact" end time: Oct 18 18:55 IST
+"ReductionsTest.MinAndMaxAreExact" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/67 Testing: ReductionsTest.DotProductMatchesWithinTolerance
+10/67 Test: ReductionsTest.DotProductMatchesWithinTolerance
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=ReductionsTest.DotProductMatchesWithinTolerance" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"ReductionsTest.DotProductMatchesWithinTolerance" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReductionsTest.DotProductMatchesWithinTolerance
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReductionsTest
+[ RUN      ] ReductionsTest.DotProductMatchesWithinTolerance
+[       OK ] ReductionsTest.DotProductMatchesWithinTolerance (0 ms)
+[----------] 1 test from ReductionsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ReductionsTest.DotProductMatchesWithinTolerance" end time: Oct 18 18:55 IST
+"ReductionsTest.DotProductMatchesWithinTolerance" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/67 Testing: ReductionsTest.MeanMatchesAccurately
+11/67 Test: ReductionsTest.MeanMatchesAccurately
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=ReductionsTest.MeanMatchesAccurately" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"ReductionsTest.MeanMatchesAccurately" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ReductionsTest.MeanMatchesAccurately
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReductionsTest
+[ RUN      ] ReductionsTest.MeanMatchesAccurately
+[       OK ] ReductionsTest.MeanMatchesAccurately (3 ms)
+[----------] 1 test from ReductionsTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ReductionsTest.MeanMatchesAccurately" end time: Oct 18 18:55 IST
+"ReductionsTest.MeanMatchesAccurately" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/67 Testing: EdgeCasesTest.EmptyVectorDoesNotCrash
+12/67 Test: EdgeCasesTest.EmptyVectorDoesNotCrash
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=EdgeCasesTest.EmptyVectorDoesNotCrash" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"EdgeCasesTest.EmptyVectorDoesNotCrash" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EdgeCasesTest.EmptyVectorDoesNotCrash
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EdgeCasesTest
+[ RUN      ] EdgeCasesTest.EmptyVectorDoesNotCrash
+[       OK ] EdgeCasesTest.EmptyVectorDoesNotCrash (0 ms)
+[----------] 1 test from EdgeCasesTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EdgeCasesTest.EmptyVectorDoesNotCrash" end time: Oct 18 18:55 IST
+"EdgeCasesTest.EmptyVectorDoesNotCrash" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/67 Testing: EdgeCasesTest.SingleElementInputs
+13/67 Test: EdgeCasesTest.SingleElementInputs
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=EdgeCasesTest.SingleElementInputs" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"EdgeCasesTest.SingleElementInputs" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EdgeCasesTest.SingleElementInputs
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EdgeCasesTest
+[ RUN      ] EdgeCasesTest.SingleElementInputs
+[       OK ] EdgeCasesTest.SingleElementInputs (0 ms)
+[----------] 1 test from EdgeCasesTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"EdgeCasesTest.SingleElementInputs" end time: Oct 18 18:55 IST
+"EdgeCasesTest.SingleElementInputs" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/67 Testing: EdgeCasesTest.HandlesNaNAndInfinity
+14/67 Test: EdgeCasesTest.HandlesNaNAndInfinity
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=EdgeCasesTest.HandlesNaNAndInfinity" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"EdgeCasesTest.HandlesNaNAndInfinity" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EdgeCasesTest.HandlesNaNAndInfinity
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EdgeCasesTest
+[ RUN      ] EdgeCasesTest.HandlesNaNAndInfinity
+[       OK ] EdgeCasesTest.HandlesNaNAndInfinity (0 ms)
+[----------] 1 test from EdgeCasesTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"EdgeCasesTest.HandlesNaNAndInfinity" end time: Oct 18 18:55 IST
+"EdgeCasesTest.HandlesNaNAndInfinity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/67 Testing: DimensionValidationTest.ThrowsOnInnerDimensionMismatch
+15/67 Test: DimensionValidationTest.ThrowsOnInnerDimensionMismatch
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=DimensionValidationTest.ThrowsOnInnerDimensionMismatch" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"DimensionValidationTest.ThrowsOnInnerDimensionMismatch" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DimensionValidationTest.ThrowsOnInnerDimensionMismatch
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DimensionValidationTest
+[ RUN      ] DimensionValidationTest.ThrowsOnInnerDimensionMismatch
+[       OK ] DimensionValidationTest.ThrowsOnInnerDimensionMismatch (4 ms)
+[----------] 1 test from DimensionValidationTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DimensionValidationTest.ThrowsOnInnerDimensionMismatch" end time: Oct 18 18:55 IST
+"DimensionValidationTest.ThrowsOnInnerDimensionMismatch" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/67 Testing: DimensionValidationTest.ThrowsOnOutputDimensionMismatch
+16/67 Test: DimensionValidationTest.ThrowsOnOutputDimensionMismatch
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=DimensionValidationTest.ThrowsOnOutputDimensionMismatch" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"DimensionValidationTest.ThrowsOnOutputDimensionMismatch" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DimensionValidationTest.ThrowsOnOutputDimensionMismatch
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DimensionValidationTest
+[ RUN      ] DimensionValidationTest.ThrowsOnOutputDimensionMismatch
+[       OK ] DimensionValidationTest.ThrowsOnOutputDimensionMismatch (0 ms)
+[----------] 1 test from DimensionValidationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DimensionValidationTest.ThrowsOnOutputDimensionMismatch" end time: Oct 18 18:55 IST
+"DimensionValidationTest.ThrowsOnOutputDimensionMismatch" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/67 Testing: DimensionValidationTest.ThrowsOnMatrixOutOfBoundsAccess
+17/67 Test: DimensionValidationTest.ThrowsOnMatrixOutOfBoundsAccess
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=DimensionValidationTest.ThrowsOnMatrixOutOfBoundsAccess" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"DimensionValidationTest.ThrowsOnMatrixOutOfBoundsAccess" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DimensionValidationTest.ThrowsOnMatrixOutOfBoundsAccess
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DimensionValidationTest
+[ RUN      ] DimensionValidationTest.ThrowsOnMatrixOutOfBoundsAccess
+[       OK ] DimensionValidationTest.ThrowsOnMatrixOutOfBoundsAccess (0 ms)
+[----------] 1 test from DimensionValidationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"DimensionValidationTest.ThrowsOnMatrixOutOfBoundsAccess" end time: Oct 18 18:55 IST
+"DimensionValidationTest.ThrowsOnMatrixOutOfBoundsAccess" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/67 Testing: ConcurrencyTest.ThreadScalingReductionsYieldIdenticalResults
+18/67 Test: ConcurrencyTest.ThreadScalingReductionsYieldIdenticalResults
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=ConcurrencyTest.ThreadScalingReductionsYieldIdenticalResults" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"ConcurrencyTest.ThreadScalingReductionsYieldIdenticalResults" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConcurrencyTest.ThreadScalingReductionsYieldIdenticalResults
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConcurrencyTest
+[ RUN      ] ConcurrencyTest.ThreadScalingReductionsYieldIdenticalResults
+[       OK ] ConcurrencyTest.ThreadScalingReductionsYieldIdenticalResults (56 ms)
+[----------] 1 test from ConcurrencyTest (56 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (56 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"ConcurrencyTest.ThreadScalingReductionsYieldIdenticalResults" end time: Oct 18 18:55 IST
+"ConcurrencyTest.ThreadScalingReductionsYieldIdenticalResults" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/67 Testing: ConcurrencyTest.ThreadScalingMatmulYieldsIdenticalResults
+19/67 Test: ConcurrencyTest.ThreadScalingMatmulYieldsIdenticalResults
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=ConcurrencyTest.ThreadScalingMatmulYieldsIdenticalResults" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"ConcurrencyTest.ThreadScalingMatmulYieldsIdenticalResults" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConcurrencyTest.ThreadScalingMatmulYieldsIdenticalResults
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConcurrencyTest
+[ RUN      ] ConcurrencyTest.ThreadScalingMatmulYieldsIdenticalResults
+[       OK ] ConcurrencyTest.ThreadScalingMatmulYieldsIdenticalResults (0 ms)
+[----------] 1 test from ConcurrencyTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ConcurrencyTest.ThreadScalingMatmulYieldsIdenticalResults" end time: Oct 18 18:55 IST
+"ConcurrencyTest.ThreadScalingMatmulYieldsIdenticalResults" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/67 Testing: ConcurrencyTest.SchedulingPoliciesProduceConsistentResults
+20/67 Test: ConcurrencyTest.SchedulingPoliciesProduceConsistentResults
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=ConcurrencyTest.SchedulingPoliciesProduceConsistentResults" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"ConcurrencyTest.SchedulingPoliciesProduceConsistentResults" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConcurrencyTest.SchedulingPoliciesProduceConsistentResults
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConcurrencyTest
+[ RUN      ] ConcurrencyTest.SchedulingPoliciesProduceConsistentResults
+[       OK ] ConcurrencyTest.SchedulingPoliciesProduceConsistentResults (16 ms)
+[----------] 1 test from ConcurrencyTest (16 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (16 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"ConcurrencyTest.SchedulingPoliciesProduceConsistentResults" end time: Oct 18 18:55 IST
+"ConcurrencyTest.SchedulingPoliciesProduceConsistentResults" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/67 Testing: RegressionTest.RepeatedExecutionDeterminism
+21/67 Test: RegressionTest.RepeatedExecutionDeterminism
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=RegressionTest.RepeatedExecutionDeterminism" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"RegressionTest.RepeatedExecutionDeterminism" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RegressionTest.RepeatedExecutionDeterminism
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RegressionTest
+[ RUN      ] RegressionTest.RepeatedExecutionDeterminism
+[       OK ] RegressionTest.RepeatedExecutionDeterminism (0 ms)
+[----------] 1 test from RegressionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RegressionTest.RepeatedExecutionDeterminism" end time: Oct 18 18:55 IST
+"RegressionTest.RepeatedExecutionDeterminism" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/67 Testing: RegressionTest.ExhaustiveVectorTailLengthsFrom1To33
+22/67 Test: RegressionTest.ExhaustiveVectorTailLengthsFrom1To33
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=RegressionTest.ExhaustiveVectorTailLengthsFrom1To33" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"RegressionTest.ExhaustiveVectorTailLengthsFrom1To33" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RegressionTest.ExhaustiveVectorTailLengthsFrom1To33
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RegressionTest
+[ RUN      ] RegressionTest.ExhaustiveVectorTailLengthsFrom1To33
+[       OK ] RegressionTest.ExhaustiveVectorTailLengthsFrom1To33 (0 ms)
+[----------] 1 test from RegressionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RegressionTest.ExhaustiveVectorTailLengthsFrom1To33" end time: Oct 18 18:55 IST
+"RegressionTest.ExhaustiveVectorTailLengthsFrom1To33" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/67 Testing: RegressionTest.TallSkinnyAndShortWideMatmul
+23/67 Test: RegressionTest.TallSkinnyAndShortWideMatmul
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=RegressionTest.TallSkinnyAndShortWideMatmul" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"RegressionTest.TallSkinnyAndShortWideMatmul" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RegressionTest.TallSkinnyAndShortWideMatmul
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RegressionTest
+[ RUN      ] RegressionTest.TallSkinnyAndShortWideMatmul
+[       OK ] RegressionTest.TallSkinnyAndShortWideMatmul (0 ms)
+[----------] 1 test from RegressionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RegressionTest.TallSkinnyAndShortWideMatmul" end time: Oct 18 18:55 IST
+"RegressionTest.TallSkinnyAndShortWideMatmul" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/67 Testing: VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/1
+24/67 Test: VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/1
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/0" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/1" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/0
+[       OK ] VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/0 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/1" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/67 Testing: VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/7
+25/67 Test: VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/7
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/1" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/7" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/1
+[       OK ] VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/1 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/7" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/67 Testing: VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/8
+26/67 Test: VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/8
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/2" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/8" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/2
+[       OK ] VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/2 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/8" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/67 Testing: VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/15
+27/67 Test: VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/15
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/3" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/15" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/3
+[       OK ] VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/3 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/15" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/15" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/67 Testing: VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/16
+28/67 Test: VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/16
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/4" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/16" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/4
+[       OK ] VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/4 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/16" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/16" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/67 Testing: VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/33
+29/67 Test: VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/33
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/5" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/33" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/5
+[       OK ] VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/5 (16 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (16 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (16 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/33" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/33" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/67 Testing: VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/128
+30/67 Test: VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/128
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/6" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/128" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/6
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/6
+[       OK ] VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/6 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/128" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/128" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/67 Testing: VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/1025
+31/67 Test: VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/1025
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/7" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/1025" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/7
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/7
+[       OK ] VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/7 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/1025" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/1025" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/67 Testing: VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/1
+32/67 Test: VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/1
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/0" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/1" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/0
+[       OK ] VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/0 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/1" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/67 Testing: VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/7
+33/67 Test: VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/7
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/1" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/7" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/1
+[       OK ] VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/1 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/7" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/67 Testing: VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/8
+34/67 Test: VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/8
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/2" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/8" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/2
+[       OK ] VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/2 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/8" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/67 Testing: VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/15
+35/67 Test: VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/15
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/3" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/15" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/3
+[       OK ] VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/3 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/15" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/15" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/67 Testing: VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/16
+36/67 Test: VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/16
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/4" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/16" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/4
+[       OK ] VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/4 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/16" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/16" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/67 Testing: VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/33
+37/67 Test: VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/33
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/5" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/33" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/5
+[       OK ] VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/5 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/33" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/33" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/67 Testing: VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/128
+38/67 Test: VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/128
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/6" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/128" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/6
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/6
+[       OK ] VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/6 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/128" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/128" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/67 Testing: VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/1025
+39/67 Test: VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/1025
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/7" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/1025" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/7
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/7
+[       OK ] VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/7 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/1025" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/1025" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/67 Testing: VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/1
+40/67 Test: VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/1
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/0" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/1" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/0
+[       OK ] VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/0 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/1" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/67 Testing: VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/7
+41/67 Test: VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/7
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/1" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/7" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/1
+[       OK ] VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/1 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/7" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/67 Testing: VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/8
+42/67 Test: VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/8
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/2" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/8" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/2
+[       OK ] VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/2 (5 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/8" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/67 Testing: VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/15
+43/67 Test: VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/15
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/3" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/15" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/3
+[       OK ] VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/3 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/15" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/15" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/67 Testing: VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/16
+44/67 Test: VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/16
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/4" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/16" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/4
+[       OK ] VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/4 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/16" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/16" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/67 Testing: VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/33
+45/67 Test: VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/33
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/5" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/33" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/5
+[       OK ] VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/5 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/33" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/33" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/67 Testing: VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/128
+46/67 Test: VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/128
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/6" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/128" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/6
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/6
+[       OK ] VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/6 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/128" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/128" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/67 Testing: VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/1025
+47/67 Test: VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/1025
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/7" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/1025" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/7
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/7
+[       OK ] VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/7 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/1025" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/1025" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/67 Testing: VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/1
+48/67 Test: VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/1
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/0" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/1" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/0
+[       OK ] VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/0 (20 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (20 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (20 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/1" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/67 Testing: VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/7
+49/67 Test: VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/7
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/1" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/7" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/1
+[       OK ] VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/1 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/7" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/67 Testing: VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/8
+50/67 Test: VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/8
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/2" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/8" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/2
+[       OK ] VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/2 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/8" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/67 Testing: VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/15
+51/67 Test: VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/15
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/3" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/15" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/3
+[       OK ] VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/3 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/15" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/15" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/67 Testing: VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/16
+52/67 Test: VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/16
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/4" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/16" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/4
+[       OK ] VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/4 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/16" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/16" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/67 Testing: VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/33
+53/67 Test: VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/33
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/5" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/33" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/5
+[       OK ] VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/5 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/33" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/33" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/67 Testing: VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/128
+54/67 Test: VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/128
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/6" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/128" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/6
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/6
+[       OK ] VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/6 (0 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/128" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/128" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/67 Testing: VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/1025
+55/67 Test: VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/1025
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/7" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/1025" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/7
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VaryingSizes/ElementwiseTest
+[ RUN      ] VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/7
+[       OK ] VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/7 (1 ms)
+[----------] 1 test from VaryingSizes/ElementwiseTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/1025" end time: Oct 18 18:55 IST
+"VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/1025" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/67 Testing: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00>
+56/67 Test: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00>
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/0" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00>" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest
+[ RUN      ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/0
+[       OK ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/0 (0 ms)
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00>" end time: Oct 18 18:55 IST
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/67 Testing: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <07-00 00-00 00-00 00-00 0D-00 00-00 00-00 00-00 0B-00 00-00 00-00 00-00>
+57/67 Test: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <07-00 00-00 00-00 00-00 0D-00 00-00 00-00 00-00 0B-00 00-00 00-00 00-00>
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/1" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <07-00 00-00 00-00 00-00 0D-00 00-00 00-00 00-00 0B-00 00-00 00-00 00-00>" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest
+[ RUN      ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/1
+[       OK ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/1 (0 ms)
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <07-00 00-00 00-00 00-00 0D-00 00-00 00-00 00-00 0B-00 00-00 00-00 00-00>" end time: Oct 18 18:55 IST
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <07-00 00-00 00-00 00-00 0D-00 00-00 00-00 00-00 0B-00 00-00 00-00 00-00>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/67 Testing: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <19-00 00-00 00-00 00-00 21-00 00-00 00-00 00-00 13-00 00-00 00-00 00-00>
+58/67 Test: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <19-00 00-00 00-00 00-00 21-00 00-00 00-00 00-00 13-00 00-00 00-00 00-00>
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/2" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <19-00 00-00 00-00 00-00 21-00 00-00 00-00 00-00 13-00 00-00 00-00 00-00>" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest
+[ RUN      ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/2
+[       OK ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/2 (0 ms)
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <19-00 00-00 00-00 00-00 21-00 00-00 00-00 00-00 13-00 00-00 00-00 00-00>" end time: Oct 18 18:55 IST
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <19-00 00-00 00-00 00-00 21-00 00-00 00-00 00-00 13-00 00-00 00-00 00-00>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/67 Testing: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00>
+59/67 Test: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00>
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/3" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00>" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest
+[ RUN      ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/3
+[       OK ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/3 (2 ms)
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00>" end time: Oct 18 18:55 IST
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/67 Testing: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <01-00 00-00 00-00 00-00 41-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00>
+60/67 Test: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <01-00 00-00 00-00 00-00 41-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00>
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/4" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <01-00 00-00 00-00 00-00 41-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00>" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest
+[ RUN      ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/4
+[       OK ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/4 (1 ms)
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <01-00 00-00 00-00 00-00 41-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00>" end time: Oct 18 18:55 IST
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <01-00 00-00 00-00 00-00 41-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/67 Testing: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <30-00 00-00 00-00 00-00 11-00 00-00 00-00 00-00 23-00 00-00 00-00 00-00>
+61/67 Test: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <30-00 00-00 00-00 00-00 11-00 00-00 00-00 00-00 23-00 00-00 00-00 00-00>
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/5" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <30-00 00-00 00-00 00-00 11-00 00-00 00-00 00-00 23-00 00-00 00-00 00-00>" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest
+[ RUN      ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/5
+[       OK ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/5 (5 ms)
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (6 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <30-00 00-00 00-00 00-00 11-00 00-00 00-00 00-00 23-00 00-00 00-00 00-00>" end time: Oct 18 18:55 IST
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <30-00 00-00 00-00 00-00 11-00 00-00 00-00 00-00 23-00 00-00 00-00 00-00>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/67 Testing: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00>
+62/67 Test: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00>
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/0" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00>" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest
+[ RUN      ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/0
+[       OK ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/0 (0 ms)
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00>" end time: Oct 18 18:55 IST
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/67 Testing: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <07-00 00-00 00-00 00-00 0D-00 00-00 00-00 00-00 0B-00 00-00 00-00 00-00>
+63/67 Test: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <07-00 00-00 00-00 00-00 0D-00 00-00 00-00 00-00 0B-00 00-00 00-00 00-00>
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/1" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <07-00 00-00 00-00 00-00 0D-00 00-00 00-00 00-00 0B-00 00-00 00-00 00-00>" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest
+[ RUN      ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/1
+[       OK ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/1 (0 ms)
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <07-00 00-00 00-00 00-00 0D-00 00-00 00-00 00-00 0B-00 00-00 00-00 00-00>" end time: Oct 18 18:55 IST
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <07-00 00-00 00-00 00-00 0D-00 00-00 00-00 00-00 0B-00 00-00 00-00 00-00>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/67 Testing: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <19-00 00-00 00-00 00-00 21-00 00-00 00-00 00-00 13-00 00-00 00-00 00-00>
+64/67 Test: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <19-00 00-00 00-00 00-00 21-00 00-00 00-00 00-00 13-00 00-00 00-00 00-00>
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/2" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <19-00 00-00 00-00 00-00 21-00 00-00 00-00 00-00 13-00 00-00 00-00 00-00>" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest
+[ RUN      ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/2
+[       OK ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/2 (0 ms)
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <19-00 00-00 00-00 00-00 21-00 00-00 00-00 00-00 13-00 00-00 00-00 00-00>" end time: Oct 18 18:55 IST
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <19-00 00-00 00-00 00-00 21-00 00-00 00-00 00-00 13-00 00-00 00-00 00-00>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/67 Testing: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00>
+65/67 Test: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00>
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/3" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00>" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest
+[ RUN      ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/3
+[       OK ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/3 (3 ms)
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00>" end time: Oct 18 18:55 IST
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+66/67 Testing: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <01-00 00-00 00-00 00-00 41-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00>
+66/67 Test: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <01-00 00-00 00-00 00-00 41-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00>
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/4" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <01-00 00-00 00-00 00-00 41-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00>" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest
+[ RUN      ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/4
+[       OK ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/4 (0 ms)
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <01-00 00-00 00-00 00-00 41-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00>" end time: Oct 18 18:55 IST
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <01-00 00-00 00-00 00-00 41-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+67/67 Testing: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <30-00 00-00 00-00 00-00 11-00 00-00 00-00 00-00 23-00 00-00 00-00 00-00>
+67/67 Test: RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <30-00 00-00 00-00 00-00 11-00 00-00 00-00 00-00 23-00 00-00 00-00 00-00>
+Command: "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/parallel_compute_tests" "--gtest_filter=RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/5" "--gtest_also_run_disabled_tests"
+Directory: /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <30-00 00-00 00-00 00-00 11-00 00-00 00-00 00-00 23-00 00-00 00-00 00-00>" start time: Oct 18 18:55 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest
+[ RUN      ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/5
+[       OK ] RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/5 (1 ms)
+[----------] 1 test from RectangularDimensions/MatmulNumericalTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <30-00 00-00 00-00 00-00 11-00 00-00 00-00 00-00 23-00 00-00 00-00 00-00>" end time: Oct 18 18:55 IST
+"RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <30-00 00-00 00-00 00-00 11-00 00-00 00-00 00-00 23-00 00-00 00-00 00-00>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 18 18:55 IST

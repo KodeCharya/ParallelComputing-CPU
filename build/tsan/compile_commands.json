@@ -1,0 +1,170 @@
+[
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"RelWithDebInfo\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -o CMakeFiles/parallel_compute_core.dir/src/common/error.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/common/error.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/common/error.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/common/error.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"RelWithDebInfo\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -o CMakeFiles/parallel_compute_core.dir/src/system/cpu_features.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/system/cpu_features.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/system/cpu_features.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/system/cpu_features.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"RelWithDebInfo\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -o CMakeFiles/parallel_compute_core.dir/src/system/system_info.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/system/system_info.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/system/system_info.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/system/system_info.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"RelWithDebInfo\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -o CMakeFiles/parallel_compute_core.dir/src/memory/memory_workloads.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/memory/memory_workloads.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/memory/memory_workloads.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/memory/memory_workloads.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"RelWithDebInfo\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -o CMakeFiles/parallel_compute_core.dir/src/algorithms/elementwise.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/algorithms/elementwise.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/algorithms/elementwise.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/algorithms/elementwise.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"RelWithDebInfo\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -o CMakeFiles/parallel_compute_core.dir/src/algorithms/reduction.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/algorithms/reduction.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/algorithms/reduction.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/algorithms/reduction.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"RelWithDebInfo\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -o CMakeFiles/parallel_compute_core.dir/src/algorithms/matmul.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/algorithms/matmul.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/algorithms/matmul.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/algorithms/matmul.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"RelWithDebInfo\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -o CMakeFiles/parallel_compute_core.dir/src/parallel/parallel_elementwise.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/parallel/parallel_elementwise.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/parallel/parallel_elementwise.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/parallel/parallel_elementwise.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"RelWithDebInfo\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -o CMakeFiles/parallel_compute_core.dir/src/parallel/parallel_reduction.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/parallel/parallel_reduction.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/parallel/parallel_reduction.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/parallel/parallel_reduction.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"RelWithDebInfo\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -o CMakeFiles/parallel_compute_core.dir/src/parallel/parallel_matmul.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/parallel/parallel_matmul.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/parallel/parallel_matmul.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/parallel/parallel_matmul.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"RelWithDebInfo\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -o CMakeFiles/parallel_compute_core.dir/src/parallel/schedule_experiment.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/parallel/schedule_experiment.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/parallel/schedule_experiment.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/parallel/schedule_experiment.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"RelWithDebInfo\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -mavx2 -mfma -o CMakeFiles/parallel_compute_core.dir/src/simd/simd_elementwise.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/simd/simd_elementwise.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/simd/simd_elementwise.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/simd/simd_elementwise.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"RelWithDebInfo\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -mavx2 -mfma -o CMakeFiles/parallel_compute_core.dir/src/simd/simd_reduction.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/simd/simd_reduction.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/simd/simd_reduction.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/simd/simd_reduction.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"RelWithDebInfo\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -mavx2 -mfma -o CMakeFiles/parallel_compute_core.dir/src/simd/simd_matmul.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/simd/simd_matmul.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/simd/simd_matmul.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/simd/simd_matmul.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -o CMakeFiles/system_info_cli.dir/src/system/main.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/system/main.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/system/main.cpp",
+  "output": "CMakeFiles/system_info_cli.dir/src/system/main.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -o CMakeFiles/parallel_compute_tests.dir/tests/unit/test_cpu_features.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/unit/test_cpu_features.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/unit/test_cpu_features.cpp",
+  "output": "CMakeFiles/parallel_compute_tests.dir/tests/unit/test_cpu_features.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -o CMakeFiles/parallel_compute_tests.dir/tests/unit/test_memory.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/unit/test_memory.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/unit/test_memory.cpp",
+  "output": "CMakeFiles/parallel_compute_tests.dir/tests/unit/test_memory.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -o CMakeFiles/parallel_compute_tests.dir/tests/unit/test_elementwise.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/unit/test_elementwise.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/unit/test_elementwise.cpp",
+  "output": "CMakeFiles/parallel_compute_tests.dir/tests/unit/test_elementwise.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -o CMakeFiles/parallel_compute_tests.dir/tests/numerical/test_reductions.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/numerical/test_reductions.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/numerical/test_reductions.cpp",
+  "output": "CMakeFiles/parallel_compute_tests.dir/tests/numerical/test_reductions.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -o CMakeFiles/parallel_compute_tests.dir/tests/numerical/test_matmul.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/numerical/test_matmul.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/numerical/test_matmul.cpp",
+  "output": "CMakeFiles/parallel_compute_tests.dir/tests/numerical/test_matmul.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -o CMakeFiles/parallel_compute_tests.dir/tests/edge_cases/test_edge_cases.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/edge_cases/test_edge_cases.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/edge_cases/test_edge_cases.cpp",
+  "output": "CMakeFiles/parallel_compute_tests.dir/tests/edge_cases/test_edge_cases.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -o CMakeFiles/parallel_compute_tests.dir/tests/edge_cases/test_dimension_validation.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/edge_cases/test_dimension_validation.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/edge_cases/test_dimension_validation.cpp",
+  "output": "CMakeFiles/parallel_compute_tests.dir/tests/edge_cases/test_dimension_validation.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -o CMakeFiles/parallel_compute_tests.dir/tests/concurrency/test_concurrency.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/concurrency/test_concurrency.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/concurrency/test_concurrency.cpp",
+  "output": "CMakeFiles/parallel_compute_tests.dir/tests/concurrency/test_concurrency.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest -O2 -g -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fsanitize=thread -fno-omit-frame-pointer -g -fopenmp -o CMakeFiles/parallel_compute_tests.dir/tests/regression/test_regression.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/regression/test_regression.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/regression/test_regression.cpp",
+  "output": "CMakeFiles/parallel_compute_tests.dir/tests/regression/test_regression.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googlemock/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googlemock -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest -O2 -g -DNDEBUG -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_HAS_OPENMP=1 -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googlemock/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googlemock -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest -O2 -g -DNDEBUG -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest -O2 -g -DNDEBUG -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_HAS_OPENMP=1 -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest -O2 -g -DNDEBUG -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/tsan/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+}
+]

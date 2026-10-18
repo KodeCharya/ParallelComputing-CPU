@@ -1,0 +1,80 @@
+CpuFeaturesTest.DetectsVendorAndBrand 2 0.00396778
+SystemInfoTest.DetectsCoresAndCache 2 0.00538201
+AlignmentTest.ChecksAlignment 2 0.00322092
+AlignedVectorTest.AllocatesAlignedMemory 2 0.00345624
+MatrixTest.ManagesRowMajorStorage 2 0.00295682
+BandwidthCounterTest.CalculatesStandardSTREAMBytes 2 0.00447261
+MemoryWorkloadsTest.VerifiesWorkloadsCorrectness 2 0.00298619
+ReductionsTest.SumMatchesWithinTolerance 2 0.00277947
+ReductionsTest.MinAndMaxAreExact 2 0.00353316
+ReductionsTest.DotProductMatchesWithinTolerance 2 0.00490245
+ReductionsTest.MeanMatchesAccurately 2 0.00616823
+EdgeCasesTest.EmptyVectorDoesNotCrash 2 0.00345119
+EdgeCasesTest.SingleElementInputs 2 0.00434597
+EdgeCasesTest.HandlesNaNAndInfinity 2 0.00216203
+DimensionValidationTest.ThrowsOnInnerDimensionMismatch 2 0.00437567
+DimensionValidationTest.ThrowsOnOutputDimensionMismatch 2 0.00264163
+DimensionValidationTest.ThrowsOnMatrixOutOfBoundsAccess 2 0.00242182
+ConcurrencyTest.ThreadScalingReductionsYieldIdenticalResults 2 0.0313263
+ConcurrencyTest.ThreadScalingMatmulYieldsIdenticalResults 2 0.00239298
+ConcurrencyTest.SchedulingPoliciesProduceConsistentResults 2 0.0103993
+RegressionTest.RepeatedExecutionDeterminism 2 0.00318982
+RegressionTest.ExhaustiveVectorTailLengthsFrom1To33 2 0.00288207
+RegressionTest.TallSkinnyAndShortWideMatmul 2 0.00257414
+VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/1 2 0.00230957
+VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/7 2 0.00225983
+VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/8 2 0.00235517
+VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/15 2 0.00305457
+VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/16 2 0.00529853
+VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/33 2 0.0117617
+VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/128 2 0.00316418
+VaryingSizes/ElementwiseTest.VectorAddMatchesAcrossAllVariants/1025 2 0.00309014
+VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/1 2 0.00300169
+VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/7 2 0.00340519
+VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/8 2 0.00509829
+VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/15 2 0.0031879
+VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/16 2 0.00234054
+VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/33 2 0.00259882
+VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/128 2 0.00259557
+VaryingSizes/ElementwiseTest.VectorMulMatchesAcrossAllVariants/1025 2 0.00268921
+VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/1 2 0.00335311
+VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/7 2 0.0044246
+VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/8 2 0.00616326
+VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/15 2 0.00361774
+VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/16 2 0.005173
+VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/33 2 0.00272381
+VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/128 2 0.0036141
+VaryingSizes/ElementwiseTest.SAXPYMatchesAcrossAllVariants/1025 2 0.00576409
+VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/1 2 0.0139058
+VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/7 2 0.00308067
+VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/8 2 0.00300452
+VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/15 2 0.00423496
+VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/16 2 0.00407303
+VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/33 2 0.00313249
+VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/128 2 0.00349504
+VaryingSizes/ElementwiseTest.VectorScaleMatchesAcrossAllVariants/1025 2 0.0048173
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte 0 0
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte 0 0
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte 0 0
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte 0 0
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte 0 0
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte 0 0
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte 0 0
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte 0 0
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte 0 0
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte 0 0
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte 0 0
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte 0 0
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00> 1 0.00723415
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <07-00 00-00 00-00 00-00 0D-00 00-00 00-00 00-00 0B-00 00-00 00-00 00-00> 1 0.00902572
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <19-00 00-00 00-00 00-00 21-00 00-00 00-00 00-00 13-00 00-00 00-00 00-00> 1 0.00685093
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00> 1 0.00871687
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <01-00 00-00 00-00 00-00 41-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00> 1 0.0129867
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceFloat/24-byte object <30-00 00-00 00-00 00-00 11-00 00-00 00-00 00-00 23-00 00-00 00-00 00-00> 1 0.0134006
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00> 1 0.00636857
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <07-00 00-00 00-00 00-00 0D-00 00-00 00-00 00-00 0B-00 00-00 00-00 00-00> 1 0.0066978
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <19-00 00-00 00-00 00-00 21-00 00-00 00-00 00-00 13-00 00-00 00-00 00-00> 1 0.0101828
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00 40-00 00-00 00-00 00-00> 1 0.00987549
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <01-00 00-00 00-00 00-00 41-00 00-00 00-00 00-00 01-00 00-00 00-00 00-00> 1 0.00637438
+RectangularDimensions/MatmulNumericalTest.BlockedAndParallelAndSIMDMatchReferenceDouble/24-byte object <30-00 00-00 00-00 00-00 11-00 00-00 00-00 00-00 23-00 00-00 00-00 00-00> 1 0.009051
+---

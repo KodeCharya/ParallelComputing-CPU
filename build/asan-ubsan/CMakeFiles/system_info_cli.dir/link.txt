@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -fsanitize=address,undefined -fno-omit-frame-pointer -g CMakeFiles/system_info_cli.dir/src/system/main.cpp.o -o system_info_cli  libparallel_compute_core.a /usr/lib/gcc/x86_64-linux-gnu/14/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.a

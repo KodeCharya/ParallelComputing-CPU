@@ -1,0 +1,332 @@
+[
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_core.dir/src/common/error.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/common/error.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/common/error.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/common/error.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_core.dir/src/system/cpu_features.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/system/cpu_features.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/system/cpu_features.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/system/cpu_features.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_core.dir/src/system/system_info.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/system/system_info.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/system/system_info.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/system/system_info.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_core.dir/src/memory/memory_workloads.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/memory/memory_workloads.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/memory/memory_workloads.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/memory/memory_workloads.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_core.dir/src/algorithms/elementwise.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/algorithms/elementwise.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/algorithms/elementwise.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/algorithms/elementwise.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_core.dir/src/algorithms/reduction.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/algorithms/reduction.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/algorithms/reduction.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/algorithms/reduction.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_core.dir/src/algorithms/matmul.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/algorithms/matmul.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/algorithms/matmul.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/algorithms/matmul.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_core.dir/src/parallel/parallel_elementwise.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/parallel/parallel_elementwise.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/parallel/parallel_elementwise.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/parallel/parallel_elementwise.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_core.dir/src/parallel/parallel_reduction.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/parallel/parallel_reduction.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/parallel/parallel_reduction.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/parallel/parallel_reduction.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_core.dir/src/parallel/parallel_matmul.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/parallel/parallel_matmul.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/parallel/parallel_matmul.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/parallel/parallel_matmul.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_core.dir/src/parallel/schedule_experiment.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/parallel/schedule_experiment.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/parallel/schedule_experiment.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/parallel/schedule_experiment.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -mavx2 -mfma -o CMakeFiles/parallel_compute_core.dir/src/simd/simd_elementwise.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/simd/simd_elementwise.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/simd/simd_elementwise.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/simd/simd_elementwise.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -mavx2 -mfma -o CMakeFiles/parallel_compute_core.dir/src/simd/simd_reduction.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/simd/simd_reduction.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/simd/simd_reduction.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/simd/simd_reduction.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -mavx2 -mfma -o CMakeFiles/parallel_compute_core.dir/src/simd/simd_matmul.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/simd/simd_matmul.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/simd/simd_matmul.cpp",
+  "output": "CMakeFiles/parallel_compute_core.dir/src/simd/simd_matmul.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/system_info_cli.dir/src/system/main.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/system/main.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/src/system/main.cpp",
+  "output": "CMakeFiles/system_info_cli.dir/src/system/main.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_tests.dir/tests/unit/test_cpu_features.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/unit/test_cpu_features.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/unit/test_cpu_features.cpp",
+  "output": "CMakeFiles/parallel_compute_tests.dir/tests/unit/test_cpu_features.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_tests.dir/tests/unit/test_memory.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/unit/test_memory.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/unit/test_memory.cpp",
+  "output": "CMakeFiles/parallel_compute_tests.dir/tests/unit/test_memory.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_tests.dir/tests/unit/test_elementwise.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/unit/test_elementwise.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/unit/test_elementwise.cpp",
+  "output": "CMakeFiles/parallel_compute_tests.dir/tests/unit/test_elementwise.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_tests.dir/tests/numerical/test_reductions.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/numerical/test_reductions.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/numerical/test_reductions.cpp",
+  "output": "CMakeFiles/parallel_compute_tests.dir/tests/numerical/test_reductions.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_tests.dir/tests/numerical/test_matmul.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/numerical/test_matmul.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/numerical/test_matmul.cpp",
+  "output": "CMakeFiles/parallel_compute_tests.dir/tests/numerical/test_matmul.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_tests.dir/tests/edge_cases/test_edge_cases.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/edge_cases/test_edge_cases.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/edge_cases/test_edge_cases.cpp",
+  "output": "CMakeFiles/parallel_compute_tests.dir/tests/edge_cases/test_edge_cases.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_tests.dir/tests/edge_cases/test_dimension_validation.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/edge_cases/test_dimension_validation.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/edge_cases/test_dimension_validation.cpp",
+  "output": "CMakeFiles/parallel_compute_tests.dir/tests/edge_cases/test_dimension_validation.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_tests.dir/tests/concurrency/test_concurrency.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/concurrency/test_concurrency.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/concurrency/test_concurrency.cpp",
+  "output": "CMakeFiles/parallel_compute_tests.dir/tests/concurrency/test_concurrency.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_tests.dir/tests/regression/test_regression.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/regression/test_regression.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/tests/regression/test_regression.cpp",
+  "output": "CMakeFiles/parallel_compute_tests.dir/tests/regression/test_regression.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_benchmarks.dir/benchmarks/main.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/benchmarks/main.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/benchmarks/main.cpp",
+  "output": "CMakeFiles/parallel_compute_benchmarks.dir/benchmarks/main.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_benchmarks.dir/benchmarks/kernels/bench_elementwise.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/benchmarks/kernels/bench_elementwise.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/benchmarks/kernels/bench_elementwise.cpp",
+  "output": "CMakeFiles/parallel_compute_benchmarks.dir/benchmarks/kernels/bench_elementwise.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_benchmarks.dir/benchmarks/kernels/bench_reduction.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/benchmarks/kernels/bench_reduction.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/benchmarks/kernels/bench_reduction.cpp",
+  "output": "CMakeFiles/parallel_compute_benchmarks.dir/benchmarks/kernels/bench_reduction.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_benchmarks.dir/benchmarks/kernels/bench_matmul.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/benchmarks/kernels/bench_matmul.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/benchmarks/kernels/bench_matmul.cpp",
+  "output": "CMakeFiles/parallel_compute_benchmarks.dir/benchmarks/kernels/bench_matmul.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_benchmarks.dir/benchmarks/workloads/bench_memory.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/benchmarks/workloads/bench_memory.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/benchmarks/workloads/bench_memory.cpp",
+  "output": "CMakeFiles/parallel_compute_benchmarks.dir/benchmarks/workloads/bench_memory.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_benchmarks.dir/benchmarks/workloads/bench_scheduling.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/benchmarks/workloads/bench_scheduling.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/benchmarks/workloads/bench_scheduling.cpp",
+  "output": "CMakeFiles/parallel_compute_benchmarks.dir/benchmarks/workloads/bench_scheduling.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release",
+  "command": "/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DPARALLEL_COMPUTE_BUILD_TYPE=\\\"Release\\\" -DPARALLEL_COMPUTE_COMPILER_ID=\\\"GNU\\\" -DPARALLEL_COMPUTE_COMPILER_VERSION=\\\"14.2.0\\\" -DPARALLEL_COMPUTE_HAS_AVX2=1 -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -O3 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wformat=2 -Wlogical-op -fopenmp -o CMakeFiles/parallel_compute_benchmarks.dir/benchmarks/baselines/bench_blas_comparison.cpp.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/benchmarks/baselines/bench_blas_comparison.cpp",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/ParallelComputeLab/benchmarks/baselines/bench_blas_comparison.cpp",
+  "output": "CMakeFiles/parallel_compute_benchmarks.dir/benchmarks/baselines/bench_blas_comparison.cpp.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googlemock/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googlemock -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_HAS_OPENMP=1 -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googlemock/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googlemock -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_HAS_OPENMP=1 -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++ -DPARALLEL_COMPUTE_HAS_OPENMP=1 -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/include -isystem /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest -O3 -DNDEBUG -std=c++20 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DPARALLEL_COMPUTE_HAS_OPENMP=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -DBENCHMARK_VERSION=\\\"v1.9.0\\\" -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/benchmark.dir/benchmark.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/benchmark.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/benchmark.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/benchmark.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DPARALLEL_COMPUTE_HAS_OPENMP=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/benchmark_api_internal.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/benchmark_api_internal.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DPARALLEL_COMPUTE_HAS_OPENMP=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/benchmark.dir/benchmark_name.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/benchmark_name.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/benchmark_name.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/benchmark_name.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DPARALLEL_COMPUTE_HAS_OPENMP=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/benchmark.dir/benchmark_register.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/benchmark_register.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/benchmark_register.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DPARALLEL_COMPUTE_HAS_OPENMP=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/benchmark.dir/benchmark_runner.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/benchmark_runner.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/benchmark_runner.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DPARALLEL_COMPUTE_HAS_OPENMP=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/benchmark.dir/check.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/check.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/check.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/check.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DPARALLEL_COMPUTE_HAS_OPENMP=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/benchmark.dir/colorprint.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/colorprint.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/colorprint.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/colorprint.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DPARALLEL_COMPUTE_HAS_OPENMP=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/benchmark.dir/commandlineflags.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/commandlineflags.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/commandlineflags.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/commandlineflags.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DPARALLEL_COMPUTE_HAS_OPENMP=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/benchmark.dir/complexity.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/complexity.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/complexity.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/complexity.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DPARALLEL_COMPUTE_HAS_OPENMP=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/benchmark.dir/console_reporter.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/console_reporter.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/console_reporter.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/console_reporter.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DPARALLEL_COMPUTE_HAS_OPENMP=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/benchmark.dir/counter.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/counter.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/counter.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/counter.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DPARALLEL_COMPUTE_HAS_OPENMP=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/benchmark.dir/csv_reporter.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/csv_reporter.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/csv_reporter.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/csv_reporter.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DPARALLEL_COMPUTE_HAS_OPENMP=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/benchmark.dir/json_reporter.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/json_reporter.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/json_reporter.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/json_reporter.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DPARALLEL_COMPUTE_HAS_OPENMP=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/benchmark.dir/perf_counters.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/perf_counters.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/perf_counters.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/perf_counters.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DPARALLEL_COMPUTE_HAS_OPENMP=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/benchmark.dir/reporter.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/reporter.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/reporter.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/reporter.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DPARALLEL_COMPUTE_HAS_OPENMP=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/benchmark.dir/statistics.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/statistics.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/statistics.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/statistics.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DPARALLEL_COMPUTE_HAS_OPENMP=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/benchmark.dir/string_util.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/string_util.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/string_util.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/string_util.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DPARALLEL_COMPUTE_HAS_OPENMP=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/benchmark.dir/sysinfo.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/sysinfo.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/sysinfo.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/sysinfo.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_HAS_PTHREAD_AFFINITY -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DPARALLEL_COMPUTE_HAS_OPENMP=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/benchmark.dir/timers.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/timers.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/timers.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark.dir/timers.cc.o"
+},
+{
+  "directory": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-build/src",
+  "command": "/usr/bin/c++ -DBENCHMARK_STATIC_DEFINE -DHAVE_POSIX_REGEX -DHAVE_PTHREAD_AFFINITY -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DPARALLEL_COMPUTE_HAS_OPENMP=1 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/include -I/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3 -DNDEBUG -std=c++14 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/benchmark_main.dir/benchmark_main.cc.o -c /home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/benchmark_main.cc",
+  "file": "/home/mukesh/Documents/GitHub/ParallelComputing-CPU/build/release/_deps/googlebenchmark-src/src/benchmark_main.cc",
+  "output": "_deps/googlebenchmark-build/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o"
+}
+]

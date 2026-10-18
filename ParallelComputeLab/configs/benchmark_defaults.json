@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "project": "ParallelComputeLab",
+  "benchmark_binary": "build/release/parallel_compute_benchmarks",
+  "output_dir": "results",
+  "default_repetitions": 5,
+  "default_min_time_seconds": 0.2,
+  "default_filters": [
+    "BM_VectorAdd",
+    "BM_SAXPY",
+    "BM_ReduceSum",
+    "BM_DotProduct",
+    "BM_MatMul",
+    "BM_Memory",
+    "BM_Schedule"
+  ],
+  "workload_sizes": {
+    "vector_l1": 1024,
+    "vector_l2": 16384,
+    "vector_l3": 262144,
+    "vector_dram": 4194304,
+    "matrix_small": 64,
+    "matrix_medium": 128,
+    "matrix_large": 256
+  },
+  "thread_counts": [1, 2, 4, 8],
+  "chunk_sizes": [1, 8, 32]
+}
